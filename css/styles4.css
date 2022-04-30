@@ -1,0 +1,182 @@
+.fondo{
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: amg 10s infinite;
+}
+@keyframes amg{
+    0%{
+        background-image: url(../imagenes/1.webp);
+    }
+    40%{
+        background-image: url(../imagenes/2.webp);
+    }
+    60%{
+        background-image: url(../imagenes/3.jpeg);
+    }
+    100%{
+        background-image: url(../imagenes/4.jpg);
+    }
+}
+.menu{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.fondo-limonada{
+    background-color: white;
+    box-shadow: 0 0 10px 10px black;
+    width: 600px ;
+    height: 600px;
+    margin-top: 40px;
+    position: relative;
+    left: 25%;
+    
+}
+.imagenes-limonada{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    animation: limonada 10s infinite;
+}
+@keyframes limonada{
+    0%{
+        background-image: url(../imagenes/limonada.jpg);
+    }
+    40%{
+        background-image: url(../imagenes/limonada2.webp);
+    }
+    60%{
+        background-image: url(../imagenes/limonda3.jpg);
+    }
+    100%{
+        background-image: url(../imagenes/limonda4.jpg);
+    }
+}
+
+.cuadro-limonada{
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+    left: 33%;
+}
+/* -------------------------------------------------------------------------------------- */
+.fondo-cocacola{
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0 0 10px 10px rgb(245, 239, 239);
+    width: 600px ;
+    height: 600px;
+    margin-top: 40px;
+    position: relative;
+    left: 25%;
+    
+}
+.imagenes-cocacola{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    animation: cocacola 10s infinite;
+}
+@keyframes cocacola{
+    0%{
+        background-image: url(../imagenes/cocacola.webp);
+    }
+    40%{
+        background-image: url(../imagenes/cocacola2.jpg);
+    }
+    60%{
+        background-image: url(../imagenes/cocacola3.jpg);
+    }
+    100%{
+        background-image: url(../imagenes/cocacol4.jpg);
+    }
+}
+.cuadro-cocacola{
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+    left: 33%;
+}
+
+.fondo-cerveza{
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0 0 10px 10px rgb(245, 239, 239);
+    width: 600px ;
+    height: 600px;
+    margin-top: 40px;
+    position: relative;
+    left: 25%;
+    
+}
+.imagenes-cerveza{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    animation: cerveza 10s infinite;
+}
+@keyframes cerveza{
+    0%{
+        background-image: url(../imagenes/cerveza1.png);
+    }
+    40%{
+        background-image: url(../imagenes/cerveza2.jpg);
+    }
+    60%{
+       background-image: url(../imagenes/cerveza3.jpg);
+    }
+    100%{
+        background-image: url(../imagenes/cocacol4.jpg);
+    }
+}
+.cuadro-cerveza{
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+    left: 33%;
+}
+/* --------------------------------------------------- */
+.fondo-jugos{
+    background-color: rgb(241, 234, 234);
+    box-shadow: 0 0 10px 10px rgb(29, 29, 29);
+    width: 600px ;
+    height: 600px;
+    margin-top: 40px;
+    position: relative;
+    left: 25%;
+}
+.imagenes-jugos{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    animation: jugos 10s infinite;
+}
+@keyframes jugos{
+    0%{
+        background-image: url(../imagenes/jugos1.png);
+    }
+    40%{
+        background-image: url(../imagenes/jugos2.jpg);
+    }
+    60%{
+        background-image: url(../imagenes/jugos3.jpg);
+    }
+    100%{
+        background-image: url(../imagenes/jugos4.jpg);
+    }
+}
+.cuadro-jugos{
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+    left: 33%;
+}

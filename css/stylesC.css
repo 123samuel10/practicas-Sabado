@@ -1,0 +1,254 @@
+
+
+.fondo-principal{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    animation: sa 10s infinite;
+    color: white;
+}
+@keyframes sa{
+    0%{
+        background-image: url(../imagenes/fondo1.jpg);
+    }
+    40%{
+        background-image: url(../imagenes/fondo2.webp);
+    }
+    60%{
+        background-image: url(../imagenes/fondo3.png);
+    }
+    100%{
+        background-image: url(../imagenes/fondo4.jpg);
+    }
+}
+.decoracion{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    bottom: 22px;
+    text-align: center;
+}
+.titulo{
+    color: white;
+   
+    transition: 2s;
+
+}
+.titulo:hover{
+    transform: rotateX(180deg);
+}
+/* ------------------------------------------------------------------- */
+.reloj{
+    background-color: darkblue;
+    text-align: center;
+}
+
+.fondo-hambuerguesa{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px black;
+    animation: an 10s infinite;
+}
+@keyframes an{
+    0%{
+        background-image: url(../imagenes/hamburguesa.jpg);
+    }
+    40%{
+        background-image: url(../imagenes/hambuerguesa2.jpg);
+       
+    }
+    60%{
+        background-image: url(../imagenes/hamburguesa3.webp);
+      
+    }
+    100%{
+        background-image: url(../imagenes/hambuergusa4.webp);
+     
+    }
+
+}
+
+.boton-hambuergusa{
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+    left: 100px;
+
+}
+/* ------------------------------------------------------------------ */
+.fondo-salchipapa{
+    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px black;
+    animation: ani 10s infinite;
+    margin-top: 100px;
+}
+@keyframes ani{
+    0%{
+        background-image: url(../imagenes/salchipapa.jpg);
+    }
+    40%{
+        background-image: url(../imagenes/salchipapa2.jpg);
+    }
+    60%{
+        background-image: url(../imagenes/salchipapa3.jpg);
+    }
+    100%{
+        background-image: url(../imagenes/salchipapa4.webp);
+    }
+}
+.boton-salchipapa{
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+    left: 100px;
+}
+/* ------------------------------------------------------------------------------------ */
+.fondo-perros{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px black;
+    animation: sas 10s infinite;
+    position: relative;
+    left: 830px;
+   bottom: 1200px;
+}
+@keyframes sas{
+    0%{
+        background-image: url(../imagenes/perros1.jpg);
+    }
+    40%{
+        background-image: url(../imagenes/perros2.jpg);
+    }
+    60%{
+        background-image: url(../imagenes/perros3.webp);
+    }
+    100%{
+        background-image: url(../imagenes/perros4.jpg);
+    }
+}
+.boton-perro{
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+    left: 1000px;
+    position: relative;
+    bottom: 1200px;
+}
+/* ------------------------------------------------------------ */
+.fondo-pizza{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px black;
+    animation: siu 10s infinite;
+    position: relative;
+    left: 830px;
+   bottom: 1100px;
+}
+@keyframes siu{
+    0%{
+        background-image: url(../imagenes/pizza.jpg);
+    }
+    40%{
+        background-image: url(../imagenes/pizza2.jpeg);
+    }
+    60%{
+        background-image: url(../imagenes/pizza3.jpeg.crdownload);
+    }
+    100%{
+        background-image: url(../imagenes/pizza5.jpg);
+    }
+}
+.boton-pizza{
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+    left: 1000px;
+    position: relative;
+    bottom: 1100px;
+}
+
+#boton-principal{
+    position: relative;
+    bottom: 1000px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkblue;
+    transition: 0.7;
+}
+#boton-principal:hover{
+    transform: scale(1.2);
+}
+#vaciar-compra{
+    position: relative;
+    bottom: 900px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+}
+
+.paginas{
+    position: relative;
+    bottom: 700px;
+    background-color: darkslategrey;
+    display: flex;
+}
+.paginas a{
+    line-height: 100px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30%;
+    text-align: center;
+}
+.paginas a:hover{
+    color: black;
+    background-color: white;
+}
+/* ---------------------------------------------------- */
+.imagenes{
+    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120%;
+    height: 1200px;
+    animation: img 10s infinite;
+    position: relative;
+    bottom: 700px;
+}
+@keyframes img{
+    0%{
+        background-image: url(../imagenes/fondo1.jpg);
+    }
+    40%{
+        background-image: url(../imagenes/fondo2.webp);
+    }
+    60%{
+        background-image: url(../imagenes/fondo3.png);
+    }
+    100%{
+        background-image: url(../imagenes/fondo4.jpg);
+    }
+}

@@ -1,0 +1,234 @@
+body{
+    background-color: darkcyan;
+}
+.reloj{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    position:relative;
+    left: 1200px;
+    
+}
+.titulo{
+    background-color: rgb(17, 28, 31);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    border-color: rgb(14, 48, 245);
+    animation: sa 3s infinite;
+}
+@keyframes sa{
+    0%{
+        border-color: cornflowerblue;
+    }
+    40%{
+        border-color: cyan;
+    }
+    60%{
+        border-color: dimgray;
+    }
+    100%{
+        border-color: darkslateblue;
+    }
+}
+
+.contenedor-principal{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+.contenedor{
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80% 80%;
+    box-shadow: 0 4px 6px 10px white;
+    animation: siu 10s infinite;
+  
+  
+}
+
+
+@keyframes siu {
+    0%{
+        background-image: url(../imagenes/imagen1.jpg);
+        
+     
+
+    }
+    20%{
+        background-image: url(../imagenes/imagen2.webp);
+     
+    }
+    50%{
+        background-image: url(../imagenes/imagen3.jpg);
+        
+    }
+    100%{
+        background-image: url(../imagenes/imagen4.jpg);
+        
+    }
+}
+/* ------------------------------------------------------------------------------------ */
+.contenedorD{
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(241, 231, 231);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80% 80%;
+    box-shadow: 0 4px 6px 10px rgb(10, 10, 10);
+    animation: yel 10s infinite;
+}
+@keyframes yel{
+    0%{
+        background-image: url(../imagenes/imagen5.jpg);
+    }
+    20%{
+        background-image: url(../imagenes/imagen6.jpg);
+    }
+    50%{
+        background-image: url(../imagenes/imagen7.jpg);
+    }
+    100%{
+        background-image: url(../imagenes/imagen8.jpg);
+    }
+}
+#botonU{
+    color: blue;
+    background-color: black;
+    padding: 10px;
+    transition: .1s;
+}
+#botonU:hover{
+    transform: scale(1.2);
+}
+/* --------------------------------------------- */
+.formulario{
+    background-color: darkblue;
+    height: 400px;
+    width: 400px;
+    padding: 35px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    left: 30%;
+    box-shadow: 10px 19px 26px black;
+    color: white;
+
+}
+.cuadro{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    border-width: 5px;
+    border-color: dodgerblue;
+border-style: solid;
+}
+.boton{
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+}
+.subtitulo{
+    margin-top: 40px;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+.paginas{
+    background-color: rgb(116, 134, 240);
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.paginas a{
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30%;
+    text-align: center;
+
+}
+.paginas a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

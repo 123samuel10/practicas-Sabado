@@ -1,0 +1,81 @@
+
+
+.formulario{
+    background-color: darkcyan;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    position: relative;
+    left: 30%;
+    top: 100px;
+    border-radius: 10px;
+    box-shadow: 7px 14px 25px black;
+    text-align: center;
+}
+.cuadro{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.boton{
+    margin-top: 40px;
+    width: 100%;
+    padding: 6px;
+}
+.pequeño{
+    margin-top: 27px;
+}
+.reloj{
+    font-size: 40px;
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    animation: siu 2s infinite;
+    border-style: solid;
+    border-width: 3px;
+    
+}
+@keyframes siu{
+    0%{
+        color: green;
+        border-color: blue;
+       
+    }
+    30%{
+        color: crimson;
+        border-color: brown;
+       
+        
+    }
+    60%{
+        color: darkmagenta;
+        border-color: blueviolet;
+       
+    }
+    100%{
+        color: blue;
+        border-color: cadetblue;
+       
+    }
+}
+.paginas{
+    background-color: blue;
+    margin-top: 120px;
+    display: flex;
+}
+.paginas a{
+    color: white;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30%;
+    text-align: center;
+  
+}
+.paginas a:hover{
+    color: black;
+    background-color: coral;
+}
